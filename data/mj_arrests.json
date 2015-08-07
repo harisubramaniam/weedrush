@@ -1,0 +1,88 @@
+[
+  {
+    "state": "u.s. average",
+    "dataset": [
+      {"year": 1980, "total": 28},
+      {"year": 1981, "total": 23},
+      {"year": 1982, "total": 26}
+    ]
+  },
+  {
+    "state": "Alabama",
+    "dataset": [
+      {"year": 1980, "total": 15, "male": 13, "female": 2, "white": 5, "black": 8, "others": 2, "usave": 33},
+      {"year": 1981, "total": 23, "male": 13, "female": 2, "white": 5, "black": 8, "others": 2, "usave": 21},
+      {"year": 1985, "total": 25, "male": 13, "female": 2, "white": 5, "black": 8, "others": 2, "usave": 18}
+    ]
+  },
+  {
+    "state": "California",
+    "dataset": [
+      {
+        "year": 1980,
+        "total": 25,
+        "male": 20,
+        "female": 5,
+        "white": 8,
+        "black": 9,
+        "others": 8,
+        "usave": 28
+      },
+      {
+        "year": 1981,
+        "total": 30,
+        "male": 25,
+        "female": 5,
+        "white": 12,
+        "black": 15,
+        "others": 3,
+        "usave": 29
+      },
+      {
+        "year": 1983,
+        "total": 20,
+        "male": 15,
+        "female": 5,
+        "white": 12,
+        "black": 15,
+        "others": 3,
+        "usave": 30
+      }
+    ]
+  },
+  {
+    "state": "Arizona",
+    "dataset": [
+      {
+        "year": 1980,
+        "total": 15,
+        "male": 13,
+        "female": 2,
+        "white": 5,
+        "black": 8,
+        "others": 2,
+        "usave": 45
+      },
+      {
+        "year": 1981,
+        "total": 16,
+        "male": 13,
+        "female": 2,
+        "white": 5,
+        "black": 8,
+        "others": 2,
+        "usave": 39
+      },
+      {
+        "year": 1982,
+        "total": 23,
+        "male": 13,
+        "female": 2,
+        "white": 5,
+        "black": 8,
+        "others": 2,
+        "usave": 23
+      }
+    ]
+  }
+]
