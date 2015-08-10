@@ -11,7 +11,7 @@
         "tax_rate": "N/A",
         "fee_to_get_card": "$25.00",
         "regulatory_agency": "Department of Health and Social Services ",
-        "posession_limits": "1 oz usable; 6 plants (3 mature, 3 immature)"
+        "posession_limits": "1 ounce usable; 6 plants (3 mature, 3 immature)"
     },
     {
         "state": "Arizona",
@@ -22,10 +22,10 @@
         "cultivation": "Yes",
         "number_of_patients": "61,272",
         "number_of_dispensaries": "91",
-        "tax_rate": "8.6-9.6%",
+        "tax_rate": "8.6-9.6 percent",
         "fee_to_get_card": "$150.00",
         "regulatory_agency": "Department of Health Services",
-        "posession_limits": "2.5 oz usable; 0-12 plants"
+        "posession_limits": "2.5 ounces usable; 0-12 plants"
     },
     {
         "state": "California",
@@ -36,7 +36,7 @@
         "cultivation": "Yes",
         "number_of_patients": "76,431",
         "number_of_dispensaries": "unknown at the state level",
-        "tax_rate": "7.5-9%",
+        "tax_rate": "7.5-9 percent",
         "fee_to_get_card": "$66.00",
         "regulatory_agency": "Department of Public Health",
         "posession_limits": "8 oz usable; 6 mature or 12 immature plants"
@@ -50,10 +50,10 @@
         "cultivation": "Yes",
         "number_of_patients": "112,859",
         "number_of_dispensaries": "512",
-        "tax_rate": "2.90%",
+        "tax_rate": "2.90 percent",
         "fee_to_get_card": "$15.00",
         "regulatory_agency": "Department of Public Health and Environment ",
-        "posession_limits": "2 oz usable; 6 plants (3 mature, 3 immature)"
+        "posession_limits": "2 ounces usable; 6 plants (3 mature, 3 immature)"
     },
     {
         "state": "Connecticut",
@@ -64,7 +64,7 @@
         "cultivation": "No",
         "number_of_patients": "3,801",
         "number_of_dispensaries": "6",
-        "tax_rate": "6.60%",
+        "tax_rate": "6.60 percent",
         "fee_to_get_card": "$100.00",
         "regulatory_agency": "Department of Consumer Protection",
         "posession_limits": "One-month supply (exact amount to be determined)"
@@ -78,10 +78,10 @@
         "cultivation": "No",
         "number_of_patients": "3,844",
         "number_of_dispensaries": "3",
-        "tax_rate": "6.00%",
+        "tax_rate": "6 percent",
         "fee_to_get_card": "$100.00",
         "regulatory_agency": "Department of Health",
-        "posession_limits": "2 oz dried; limits on other forms to be determined"
+        "posession_limits": "2 ounces dried; limits on other forms to be determined"
     },
     {
         "state": "Delaware",
@@ -92,10 +92,10 @@
         "cultivation": "No",
         "number_of_patients": "350",
         "number_of_dispensaries": "1",
-        "tax_rate": "0.00%",
+        "tax_rate": "Zero percent",
         "fee_to_get_card": "$125.00",
         "regulatory_agency": "Division of Public Health",
-        "posession_limits": "6 oz usable"
+        "posession_limits": "6 ounces usable"
     },
     {
         "state": "Guam",
@@ -123,7 +123,7 @@
         "tax_rate": "N/A",
         "fee_to_get_card": "$38.50",
         "regulatory_agency": "Department of Health",
-        "posession_limits": "3 oz usable; 7 plants "
+        "posession_limits": "3 ounces usable; 7 plants "
     },
     {
         "state": "Illinois",
@@ -134,7 +134,7 @@
         "cultivation": "No",
         "number_of_patients": "2,600",
         "number_of_dispensaries": "0",
-        "tax_rate": "8.00%",
+        "tax_rate": "8 percent",
         "fee_to_get_card": "$100.00",
         "regulatory_agency": "Department of Public Health",
         "posession_limits": "2.5 ounces of usable cannabis during a period of 14 days"
@@ -148,10 +148,10 @@
         "cultivation": "Yes",
         "number_of_patients": "1,480",
         "number_of_dispensaries": "8",
-        "tax_rate": "5.00%",
+        "tax_rate": "5 percent",
         "fee_to_get_card": "$0.00",
         "regulatory_agency": "Department of Health and Human Services",
-        "posession_limits": "2.5 oz usable; 6 plants"
+        "posession_limits": "2.5 ounces usable; 6 plants"
     },
     {
         "state": "Maryland",
@@ -162,7 +162,7 @@
         "cultivation": "No",
         "number_of_patients": "0",
         "number_of_dispensaries": "0",
-        "tax_rate": "0.00%",
+        "tax_rate": "Zero percent",
         "fee_to_get_card": "$50.00",
         "regulatory_agency": "Department of Health and Mental Hygiene",
         "posession_limits": "30-day supply, amount to be determined"
@@ -176,7 +176,7 @@
         "cultivation": "Yes",
         "number_of_patients": "9,150",
         "number_of_dispensaries": "1",
-        "tax_rate": "0.00%",
+        "tax_rate": "Zero percent",
         "fee_to_get_card": "$50.00",
         "regulatory_agency": "Department of Public Health",
         "posession_limits": "60-day supply for personal medical use"
@@ -193,7 +193,7 @@
         "tax_rate": "N/A",
         "fee_to_get_card": "$60.00",
         "regulatory_agency": "Department of Licensing and Regulatory Affairs",
-        "posession_limits": "2.5 oz usable; 12 plants"
+        "posession_limits": "2.5 ounces usable; 12 plants"
     },
     {
         "state": "Minnesota",
@@ -204,7 +204,7 @@
         "cultivation": "No",
         "number_of_patients": "98",
         "number_of_dispensaries": "2",
-        "tax_rate": "0.00%",
+        "tax_rate": "Zero percent",
         "fee_to_get_card": "$200.00",
         "regulatory_agency": "Department of Health",
         "posession_limits": "30-day supply of non-smokable marijuana"
@@ -221,7 +221,7 @@
         "tax_rate": "N/A",
         "fee_to_get_card": "$75.00",
         "regulatory_agency": "Department of Health and Human Services",
-        "posession_limits": "1 oz usable; 4 plants (mature); 12 seedlings"
+        "posession_limits": "1 ounce usable; 4 plants (mature); 12 seedlings"
     },
     {
         "state": "Nevada",
@@ -232,10 +232,10 @@
         "cultivation": "Yes",
         "number_of_patients": "9,345",
         "number_of_dispensaries": "0",
-        "tax_rate": "2.00%",
+        "tax_rate": "2 percent",
         "fee_to_get_card": "$100.00",
         "regulatory_agency": "Department of Health and Human Services",
-        "posession_limits": "1 oz usable; 7 plants (3 mature, 4 immature)"
+        "posession_limits": "1 ounce usable; 7 plants (3 mature, 4 immature)"
     },
     {
         "state": "New Hampshire",
@@ -246,7 +246,7 @@
         "cultivation": "Yes",
         "number_of_patients": "0",
         "number_of_dispensaries": "0",
-        "tax_rate": "0.00%",
+        "tax_rate": "Zero percent",
         "fee_to_get_card": "?",
         "regulatory_agency": "Department of Health and Human Services",
         "posession_limits": "Two ounces of usable cannabis during a 10-day period"
@@ -260,10 +260,10 @@
         "cultivation": "No",
         "number_of_patients": "3,727",
         "number_of_dispensaries": "3",
-        "tax_rate": "7.00%",
+        "tax_rate": "7 percent",
         "fee_to_get_card": "$200.00",
         "regulatory_agency": "Department of Health",
-        "posession_limits": "2 oz usable"
+        "posession_limits": "Two ounces usable"
     },
     {
         "state": "New Mexico",
@@ -274,10 +274,10 @@
         "cultivation": "Yes",
         "number_of_patients": "15,265",
         "number_of_dispensaries": "not disclosed",
-        "tax_rate": "5.125-8.8675%",
+        "tax_rate": "5.125-8.8675 percent",
         "fee_to_get_card": "$0.00",
         "regulatory_agency": "Department of Health",
-        "posession_limits": "6 oz usable; 16 plants (4 mature, 12 immature)"
+        "posession_limits": "Six ounces usable; 16 plants (4 mature, 12 immature)"
     },
     {
         "state": "New York",
@@ -288,7 +288,7 @@
         "cultivation": "No",
         "number_of_patients": "0",
         "number_of_dispensaries": "0",
-        "tax_rate": "4.00%",
+        "tax_rate": "4 percent",
         "fee_to_get_card": "$50.00",
         "regulatory_agency": "Department of Health",
         "posession_limits": "30-day supply non-smokable marijuana"
@@ -305,7 +305,7 @@
         "tax_rate": "N/A",
         "fee_to_get_card": "$200.00",
         "regulatory_agency": "Department of Human Services",
-        "posession_limits": "24 oz usable; 24 plants (6 mature, 18 immature)"
+        "posession_limits": "24 ounces usable; 24 plants (6 mature, 18 immature)"
     },
     {
         "state": "Rhode Island",
@@ -316,10 +316,10 @@
         "cultivation": "Yes",
         "number_of_patients": "11,384",
         "number_of_dispensaries": "2",
-        "tax_rate": "7.00%",
+        "tax_rate": "7 percent",
         "fee_to_get_card": "$100.00",
         "regulatory_agency": "Department of Health",
-        "posession_limits": "2.5 oz usable; 12 plants"
+        "posession_limits": "2.5 ounces usable; 12 plants"
     },
     {
         "state": "Vermont",
@@ -330,10 +330,10 @@
         "cultivation": "Yes",
         "number_of_patients": "2,060",
         "number_of_dispensaries": "4",
-        "tax_rate": "0.00%",
+        "tax_rate": "Zero percent",
         "fee_to_get_card": "$50.00",
         "regulatory_agency": "Department of Public Safety",
-        "posession_limits": "2 oz usable; 9 plants (2 mature, 7 immature)"
+        "posession_limits": "Two ounces usable; 9 plants (2 mature, 7 immature)"
     },
     {
         "state": "Washington",
@@ -344,9 +344,9 @@
         "cultivation": "Yes",
         "number_of_patients": "unclear",
         "number_of_dispensaries": "unclear",
-        "tax_rate": "37.00%",
+        "tax_rate": "37 percent",
         "fee_to_get_card": "$0.00",
         "regulatory_agency": "Department of Health",
-        "posession_limits": "24 oz usable; 15 plants"
+        "posession_limits": "24 ounces usable; 15 plants"
     }
 ]

@@ -45,7 +45,7 @@ function getFactsByState() {
           laws += "<div class=\"row\" style=\"padding:5px\">"; 
           laws += "<div class=\"col-xs-8\" style=\"background-color: #CBD4C0\">Number of Dispensaries:</div><div class=\"col-xs-4\" style=\"background-color: #CBD4C0\"> " + mm_data[count]["number_of_dispensaries"] + "</div></div>";
           laws += "<div class=\"row\" style=\"padding:5px\">"; 
-          laws += "<div class=\"col-xs-8\">Tax Rate:</div><div class=\"col-xs-4\"> " + mm_data[count]["tax_rate"] + "</div></div>";
+          laws += "<div class=\"col-xs-8\">State tax Rate:</div><div class=\"col-xs-4\"> " + mm_data[count]["tax_rate"] + "</div></div>";
           laws += "<div class=\"row\" style=\"padding:5px\">"; 
           laws += "<div class=\"col-xs-8\" style=\"background-color: #CBD4C0\">Fee to get card:</div><div class=\"col-xs-4\" style=\"background-color: #CBD4C0\"> " + mm_data[count]["fee_to_get_card"] + "</div></div>";
           laws += "<div class=\"row\" style=\"padding:5px\">"; 

@@ -43,7 +43,7 @@ function getFactsByState() {
           laws += "<div class=\"row\" style=\"padding:5px\">";
           laws += "<div class=\"col-xs-8\">Specimens tested:</div><div class=\"col-xs-4\"> " + duid_laws_data[count]["testing"] + "</div></div>";
           laws += "<div class=\"row\" style=\"padding:5px\">";
-          laws += "<div class=\"col-xs-8\" style=\"background-color: #CBD4C0\">Interesting other facts:</div><div class=\"col-xs-4\" style=\"background-color: #CBD4C0\"> " + duid_laws_data[count]["odd_things"] + "</div></div>";
+          laws += "<div class=\"col-xs-8\" style=\"background-color: #CBD4C0\">Notes:</div><div class=\"col-xs-4\" style=\"background-color: #CBD4C0\"> " + duid_laws_data[count]["odd_things"] + "</div></div>";
         } 
         count++;
         $('#textbox').html(laws).fadeIn(3000);

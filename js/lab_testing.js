@@ -35,7 +35,7 @@ function getFactsByState() {
           tests += "<div class=\"row\" style=\"padding:5px\">";
           tests += "<div class=\"col-xs-8\">Pesticide Testing:</div><div class=\"col-xs-4\"> " + lab_test_data[count]["pesticide"] + "</div></div>";
           tests += "<div class=\"row\" style=\"padding:5px\">";
-          tests += "<div class=\"col-xs-8\" style=\"background-color: #CBD4C0\">Mycotoxin Testing:</div><div class=\"col-xs-4\" style=\"background-color: #CBD4C0\"> " + lab_test_data[count]["mycotoxin"] + "</div></div>";
+          tests += "<div class=\"col-xs-8\" style=\"background-color: #CBD4C0\">Mold Testing:</div><div class=\"col-xs-4\" style=\"background-color: #CBD4C0\"> " + lab_test_data[count]["mycotoxin"] + "</div></div>";
           tests += "<div class=\"row\" style=\"padding:5px\">";
           tests += "<div class=\"col-xs-8\">Heavy Metals Testing:</div><div class=\"col-xs-4\"> " + lab_test_data[count]["heavy_metals"] + "</div></div>";
           tests += "<div class=\"row\" style=\"padding:5px\">";

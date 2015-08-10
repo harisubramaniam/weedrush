@@ -52,12 +52,12 @@
   {
     "state":"DC",
     "medical_mj_testing_mandated":"No",
-    "pesticide":"No Data",
+    "pesticide":"No",
     "note": "N/A",
-    "mycotoxin":"No Data",
-    "heavy_metals":"No Data",
-    "potency_testing":"No Data",
-    "residual_solvent":"No Data"
+    "mycotoxin":"No",
+    "heavy_metals":"No",
+    "potency_testing":"No",
+    "residual_solvent":"No"
   },
   {
     "state":"ME",
