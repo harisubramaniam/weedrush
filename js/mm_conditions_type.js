@@ -45,10 +45,10 @@ function getTypeFactsByState() {
     var no_states = no_a.join(', ');
     yes_states = yes_states.replaceArray(find, replace);
     no_states = no_states.replaceArray(find, replace);
-    conditions = "<div class=\"panel panel-default\"><div class=\"panel-heading\"><h3 class=\"panel-title\">YES</h3></div><div class=\"panel-body\">";
-    conditions += "<div class=\"row\"><div class=\"col-xs-10\">" + yes_states + "</div></div></div></div></div>";
-    conditions += "<div class=\"panel panel-default\"><div class=\"panel-heading\"><h3 class=\"panel-title\">NO</h3></div><div class=\"panel-body\">";
-    conditions += "<div class=\"row\"><div class=\"col-xs-10\">" + no_states + "</div></div></div></div></div>";
+    conditions = "<div class=\"panel panel-default\"><div class=\"panel-body\">";
+    conditions += "<div class=\"row\"><div class=\"col-xs-12\">" + yes_states + "</div></div></div></div></div>";
+    // conditions += "<div class=\"panel panel-default\"><div class=\"panel-heading\"><h3 class=\"panel-title\">NO</h3></div><div class=\"panel-body\">";
+    // conditions += "<div class=\"row\"><div class=\"col-xs-10\">" + no_states + "</div></div></div></div></div>";
     count++;
     $('#typetextbox').html(conditions).fadeIn(3000);
   });

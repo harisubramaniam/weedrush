@@ -2,10 +2,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>Montana Medical Marijuana Program Participation</title>
+        <title>Montana medical marijuana program participation</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="js/iframeResizer.contentWindow.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:400,700">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:400,700">
         <style>
             .hed {
                 font-family: Roboto;
@@ -38,7 +38,12 @@
                 });
                 $('#container').highcharts({
                     credits: {
-                        enabled: false
+                        text: 'Figures compiled using annual reports released each March.',
+                        href: '',
+                        position: {
+                            align: 'right',
+                            verticalAlign: 'bottom'
+                        }
                     },
                     exporting: {
                         enabled: false
@@ -98,14 +103,14 @@
                         name: 'Doctors',
                         color: '#353F40',
                         data: [69,100,118,150,186,295,360,254,198,207,214]
-                    },]
+                    }]
                 });
             });
         </script>
     </head>
     <body>
         <script src="js/highcharts.js"></script>
-        <div class="hed"><h2>Montana Medical Marijuana Program Participation<h2></div>
+        <div class="hed"><h2>Montana medical marijuana program participation<h2></div>
         <div class="subhed">Source: Montana Department of Public Health and Human Services</div>
         <div id="container" style="min-width: 310px; height: 350px; margin: 0 auto"></div>
     </body>

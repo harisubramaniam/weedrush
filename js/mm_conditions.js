@@ -52,12 +52,12 @@ function getFactsByState() {
           var no_tests = no_a.join(', ');
           yes_tests = yes_tests.replaceArray(find, replace);
           no_tests = no_tests.replaceArray(find, replace);
-          conditions = "<div class=\"panel panel-default\"><div class=\"panel-heading\"><h3 class=\"panel-title\">YES</h3></div><div class=\"panel-body\">";
+          conditions = "<div class=\"panel panel-default\"><div class=\"panel-body\">";
           // conditions += "<div class=\"col-xs-2\"><span class=\"glyphicon glyphicon-ok-sign\" arida-hidden=\"true\"></span></div>";
-          conditions += "<div class=\"row\"><div class=\"col-xs-10\">" + yes_tests + "</div></div></div></div></div>";
-          conditions += "<div class=\"panel panel-default\"><div class=\"panel-heading\"><h3 class=\"panel-title\">NO</h3></div><div class=\"panel-body\">";
+          conditions += "<div class=\"row\"><div class=\"col-xs-12\">" + yes_tests + "</div></div></div></div></div>";
+          // conditions += "<div class=\"panel panel-default\"><div class=\"panel-heading\"><h3 class=\"panel-title\">NO</h3></div><div class=\"panel-body\">";
           // conditions += "<div class=\"col-xs-2\"><span class=\"glyphicon glyphicon-remove-sign\" aria-hidden=\"true\"></span></div>";
-          conditions += "<div class=\"row\"><div class=\"col-xs-10\">" + no_tests + "</div></div></div></div></div>";
+          // conditions += "<div class=\"row\"><div class=\"col-xs-10\">" + no_tests + "</div></div></div></div></div>";
         } 
         count++;
         $('#textbox').html(conditions).fadeIn(3000);

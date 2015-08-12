@@ -2,10 +2,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>Montana Medical Marijuana Program Participation</title>
+        <title>Legalization attitudes over time</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="js/iframeResizer.contentWindow.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:400,700">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:400,700">
         <style>
             .hed {
                 font-family: Roboto;
@@ -22,15 +22,6 @@
                 text-align: center; 
                 margin-bottom: .5em;    
                 color: #303030;
-            }
-            .subhed2 {
-                font-family: Roboto Condensed;
-                font-weight: 400;
-                font-size: .8em; 
-                text-align: center; 
-                margin-bottom: .5em;    
-                color: #303030;
-                font-style: italic;
             }
         </style>
         <script type="text/javascript">
@@ -50,7 +41,12 @@
                         type: 'line'
                     },
                     credits: {
-                        enabled: false
+                        text: 'Source: Gallup',
+                        href: '',
+                        position: {
+                            align: 'right',
+                            verticalAlign: 'bottom'
+                        }
                     },
                     exporting: {
                         enabled: false
@@ -165,9 +161,8 @@
     </head>
     <body>
         <script src="js/highcharts.js"></script>
-        <div class="hed"><h2>Attitudes Toward Legalization Over Times<h2></div>
+        <div class="hed"><h2>Attitudes toward legalization over time<h2></div>
         <div class="subhed">Do you think the use of marijuana should be made legal, or not?</div>
-        <div class="subhed2">Source: Gallup, Inc.,</div>
         <div id="container" style="min-width: 310px; height: 350px; margin: 0 auto"></div>
     </body>
 </html>
