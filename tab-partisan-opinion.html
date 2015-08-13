@@ -45,8 +45,8 @@
             height: auto;
             padding-bottom: 10px;
         }
-        .container-tab {
-            max-width: 700px !important;
+        .container-partisan-tab {
+            max-width: 600px !important;
             padding-right: 0;
             padding-left: 0;
             margin-right: 10%;
@@ -90,23 +90,23 @@
     </style>
 </head>
 <body>
-    <div class="container-tab">
+    <div class="container-partisan-tab">
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" role="tablist">
           <li class="active">
-              <a href="#med" role="tab" data-toggle="tab">Medical</a>
+              <a href="#partmed" role="tab" data-toggle="tab">Medical</a>
           </li>
-          <li><a href="#rec" role="tab" data-toggle="tab">Recreational</a>
+          <li><a href="#partrec" role="tab" data-toggle="tab">Recreational</a>
           </li>
         </ul>
         
         <!-- Tab panes -->
         <div class="tab-content">
-          <div class="tab-pane fade active in" id="med">
-            <script src="js/medical.js"></script>
+          <div class="tab-pane fade active in" id="partmed">
+            <script src="js/partisan_medical.js"></script>
           </div>
-          <div class="tab-pane fade" id="rec">
-            <script src="js/recreational.js"></script>
+          <div class="tab-pane fade" id="partrec">
+            <script src="js/partisan_recreational.js"></script>
           </div>
         </div>      
     </div>

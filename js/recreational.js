@@ -49,6 +49,9 @@ $(function () {
                     }
                 }
             },
+            series: {
+                pointWidth: 100
+            },
             allowPointSelect: false,
         },
         legend: {
@@ -63,7 +66,7 @@ $(function () {
             shadow: false
         },
         title: {
-            text: 'Support for Recreational Marijuana',
+            text: 'Support for recreational marijuana',
             style: {
                 fontFamily: 'Roboto',
                 fontWeight: 'bold',
@@ -71,7 +74,7 @@ $(function () {
             }
         },
         subtitle: {
-            text: 'Certain states are discussing the idea of legalizing marijuana. Would you support or oppose the legalization of marijuana for the following purposes in your state: Recreational Use?',
+            text: 'Certain states are discussing the idea of legalizing marijuana. Would you support or oppose the legalization of marijuana for the following purposes in your state: Recreational use?',
             style: {
                 fontFamily: 'Roboto Condensed',
                 fontWeight: 'bold',
@@ -81,19 +84,19 @@ $(function () {
         series: [{
             name: 'Oppose',
             color: '#4A969E',
-            data: [18, 13]
+            data: [49, 44]
         }, {
-            name: 'Not Sure',
+            name: 'Not sure',
             color: '#516061',
-            data: [7, 5]
+            data: [7, 6]
         }, {
             name: 'Decline',
             color: '#967421',
-            data: [1, 1]
+            data: [2, 2]
         }, {
             name: 'Support',
             color: '#FFC437',
-            data: [74, 81]
+            data: [42, 49]
         }]
     });
 });

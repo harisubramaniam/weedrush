@@ -9,7 +9,7 @@ $(function () {
             thousandsSep: ','
         }
     });
-    $('#med').highcharts({
+    $('#partmed').highcharts({
         chart: {
             type: 'column'
         },
@@ -25,13 +25,20 @@ $(function () {
             enabled: false
         },
         title: {
+            text: null
+        },
+        legend: {
+            reversed: true,
+            align: 'center',
+            verticalAlign: 'bottom',
+        },
+        title: {
+            text: 'Medical marijuana support by party',
             style: {
                 fontFamily: 'Roboto',
                 fontWeight: 'bold',
                 fontSize: '2em'
             },
-            text: 'Support for medical marijuana',
-            x: -20 //center
         },
         subtitle: {
             text: 'Certain states are discussing the idea of legalizing marijuana. Would you support or oppose the legalization of marijuana for the following purposes in your state: Medical treatment?',
@@ -42,20 +49,18 @@ $(function () {
             }
         },
         xAxis: {
-            categories: ['2011', '2015']
+            categories: ['Democrats', 'Independents', 'Republicans']
         },
         yAxis: {
-            labels: {
-                format: '{value}%'
-            },
+            min: 0,
             title: {
-                enabled: false
-            },
-            min: 0
+                text: null
+            }
         },
         tooltip: {
-            pointFormat: '<span style="color:{series.color}">{series.name}</span>: {point.percentage:.0f}%<br/>',
-            shared: true
+            pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}%</b><br/>',
+            shared: true,
+            reversed: true
         },
         plotOptions: {
             column: {
@@ -66,38 +71,23 @@ $(function () {
                     }
                 }
             },
-            series: {
-                pointWidth: 100
-            },
             allowPointSelect: false,
-        },
-        legend: {
-            reversed: true,
-            align: 'center',
-            x: 0,
-            layout: 'horizontal',
-            verticalAlign: 'bottom',
-            backgroundColor: (Highcharts.theme && Highcharts.theme.background2) || 'white',
-            borderColor: '#CCC',
-            borderWidth: 0,
-            shadow: false
+            series: {
+                pointWidth: 60
+            }
         },
         series: [{
             name: 'Oppose',
-            color: '#4A969E',
-            data: [18, 13]
+            data: [8, 9, 23],
+            color: '#4A969E'
         }, {
-            name: 'Not sure',
-            color: '#516061',
-            data: [7, 5]
-        }, {
-            name: 'Decline',
-            color: '#967421',
-            data: [1, 1]
+            name: 'Neither support nor oppose',
+            data: [5, 5, 8],
+            color: '#516061'
         }, {
             name: 'Support',
-            color: '#FFC437',
-            data: [74, 81]
+            data: [87, 86, 69],
+            color: '#FFC437'
         }]
     });
 });
