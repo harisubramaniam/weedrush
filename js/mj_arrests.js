@@ -22,6 +22,7 @@ $(document).ready(function() {
 
 function update_charts() {
   getArrestsByState();
+  // document.getElementById('subhed').style.display = 'block';
 }
 
 function getArrestsByState() {
@@ -33,8 +34,15 @@ function getArrestsByState() {
     var female_arr = [];
     var white_arr = [];
     var black_arr = [];
+    var aian_arr = [];
     var others_arr = [];
     var usave_arr = [];
+    var usavemale_arr = [];
+    var usavefemale_arr = [];
+    var usavewhite_arr = [];
+    var usaveblack_arr = [];
+    var usaveaian_arr = [];
+    var usaveother_arr = [];
 
     var temp_state = $('#select-state').val();
     // console.log(temp_state);
@@ -48,25 +56,34 @@ function getArrestsByState() {
                 female_arr.push(arrests_data[count]["dataset"][i]["female"]);
                 white_arr.push(arrests_data[count]["dataset"][i]["white"]);
                 black_arr.push(arrests_data[count]["dataset"][i]["black"]);
+                aian_arr.push(arrests_data[count]["dataset"][i]["aian"]);
                 others_arr.push(arrests_data[count]["dataset"][i]["others"]);
-                usave_arr.push(arrests_data[count]["dataset"][i]["usave"]);
+                usave_arr.push(arrests_data[count]["dataset"][i]["usavetotal"]);
+                usavemale_arr.push(arrests_data[count]["dataset"][i]["usavemale"]);
+                usavefemale_arr.push(arrests_data[count]["dataset"][i]["usavefemale"]);
+                usavewhite_arr.push(arrests_data[count]["dataset"][i]["usavewhite"]);
+                usaveblack_arr.push(arrests_data[count]["dataset"][i]["usaveblack"]);
+                usaveaian_arr.push(arrests_data[count]["dataset"][i]["usaveaian"]);
+                usaveother_arr.push(arrests_data[count]["dataset"][i]["usaveother"]);
             }
         } 
         count++;
     });
 
-    // console.log(arrests_data[0]["dataset"].length)
-    // console.log(arrests_data[0].state)
-    // if(arrests_data[0].state == "u.s. average") {
-    //     for (j = 0; j < arrests_data[0]["dataset"].length; j++) {
-    //         usave_arr.push(arrests_data[0]["dataset"][j]["total"]);
-    //     }
-    //     // console.log(usave_arr);
-    // }
-
+    Highcharts.setOptions({
+        chart: {
+            style: {
+                fontFamily: 'Roboto Condensed'
+            }
+        },
+        lang: {
+            thousandsSep: ','
+        }
+    });
     $('#arrestsContainer').highcharts({
         chart: {
-            type: 'line'
+            type: 'line',
+            height: 500
         },
         credits: {
             enabled: false
@@ -76,16 +93,16 @@ function getArrestsByState() {
         },
         title: {
             style: {
-                fontFamily: 'Roboto Slab',
-                fontWeight: 'bold',
-                fontSize: '3em'
+                fontFamily: 'Roboto Condensed',
+                fontSize: '1em'
             },
-            text: 'Arrests per 100,000 for ' + temp_state 
+            text: 'Click on the legend items to see and hide arrest rates for subections of each state and the broader U.S. population.'
         },
         subtitle: {
+
             style: {
-                fontFamily: 'Roboto Slab',
-                fontSize: '2em'
+                fontFamily: 'Roboto Condensed',
+                fontSize: '1.5em'
             },
             text: null
         },
@@ -110,76 +127,152 @@ function getArrestsByState() {
                     fontFamily: 'Roboto Condensed',
                     fontSize: '1em'
                 },
-                text: 'Number of Arrests'
-            }
+                text: 'Number of arrests per 100,000'
+            },
+            min: 0
         },
         legend: {
+            x: 0,
+            y: 40,
             itemStyle: {
                 fontFamily: 'Roboto Condensed',
                 fontSize: '1em'
             },
             layout: 'horizontal',
             align: 'center',
-            verticalAlignment: 'bottom',
+            verticalAlign: 'top',
             padding: 2
+        },
+        tooltip: {
+            shared: true
+        },
+        plotOptions: {
+            series: {
+                lineWidth: 3.5
+            }
         },
         series: [{
             name: 'Total',
             color: "#FFC437",
             data: total_arr,
             marker: {
-                symbol: "square",
-                radius: 3
+                symbol: "circle",
+                radius: 1
             }
         }, {
             name: 'Male',
-            color: "#967421",
+            color: "#FF8325",
             data: male_arr,
+            visible: false,
             marker: {
                 symbol: "circle",
-                radius: 3
+                radius: 2
             }
         }, {
             name: 'Female',
-            color: "#967421",
+            color: "#FF442C",
             data: female_arr,
+            visible: false,
             marker: {
                 symbol: "circle",
-                radius: 3
+                radius: 1
             }
         }, {
-            name: 'Whites',
-            color: "#CBD4C0",
+            name: 'White',
+            color: "#95B56E",
             data: white_arr,
             marker: {
-                symbol: "triangle",
-                radius: 3
+                symbol: "circle",
+                radius: 1
             }
         }, {
-            name: 'Blacks',
-            color: "#CBD4C0",
+            name: 'Black',
+            color: "#62C7D1",
             data: black_arr,
             marker: {
-                symbol: "triangle",
-                radius: 3
+                symbol: "circle",
+                radius: 1
             }
         }, {
-            name: 'Others',
-            color: "#CBD4C0",
-            data: others_arr,
+            name: 'American Indian/Alaskan Native',
+            color: "#B21ADB",
+            data: aian_arr,
+            visible: false,
             marker: {
-                symbol: "triangle",
-                radius: 3
+                symbol: "circle",
+                radius: 1
             }
         }, {
-            name: 'U.S. Average',
-            color: "#42330E",
+            name: 'Other race',
+            color: "#3792FF",
+            data: others_arr,
+            visible: false,
+            marker: {
+                symbol: "circle",
+                radius: 1
+            }
+        }, {
+            name: 'U.S. average',
+            color: "#967421",
             data: usave_arr,
             marker: {
-                symbol: "diamond",
-                radius: 3
+                symbol: "circle",
+                radius: 1
+            }
+        }, {
+            name: 'U.S. average male',
+            color: "#CC691D",
+            data: usavemale_arr,
+            visible: false,
+            marker: {
+                symbol: "circle",
+                radius: 1
+            }
+        }, {
+            name: 'U.S. average female',
+            color: "#C23421",
+            data: usavefemale_arr,
+            visible: false,
+            marker: {
+                symbol: "circle",
+                radius: 1
+            }
+        }, {
+            name: 'U.S. average white',
+            color: "#5D7044",
+            data: usavewhite_arr,
+            visible: false,
+            marker: {
+                symbol: "circle",
+                radius: 1
+            }
+        }, {
+            name: 'U.S. average black',
+            color: "#4A969E",
+            data: usaveblack_arr,
+            visible: false,
+            marker: {
+                symbol: "circle",
+                radius: 1
+            }
+        }, {
+            name: 'U.S. average American Indian/Alaskan Native',
+            color: "#75188F",
+            data: usaveaian_arr,
+            visible: false,
+            marker: {
+                symbol: "circle",
+                radius: 1
+            }
+        }, {
+            name: 'U.S. average other race',
+            color: "#043FCC",
+            data: usaveother_arr,
+            visible: false,
+            marker: {
+                symbol: "circle",
+                radius: 1
             }
         }]
-
     });
 }

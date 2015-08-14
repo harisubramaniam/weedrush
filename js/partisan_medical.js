@@ -49,7 +49,7 @@ $(function () {
             }
         },
         xAxis: {
-            categories: ['Democrats', 'Independents', 'Republicans']
+            categories: ['Democrat', 'Independent', 'Republican']
         },
         yAxis: {
             min: 0,

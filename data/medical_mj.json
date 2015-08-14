@@ -2,7 +2,7 @@
     {
         "state": "Alaska",
         "date_adopted": 1998,
-        "method": "Ballot Initiative",
+        "method": "Ballot initiative",
         "caregivers": "Yes",
         "dispensaries": "No",
         "cultivation": "Yes",
@@ -11,12 +11,12 @@
         "tax_rate": "N/A",
         "fee_to_get_card": "$25",
         "regulatory_agency": "Department of Health and Social Services ",
-        "posession_limits": "1 ounce usable; 6 plants (3 mature, 3 immature)"
+        "posession_limits": "1 ounce and six plants (only three mature)"
     },
     {
         "state": "Arizona",
         "date_adopted": 2010,
-        "method": "Ballot Initiative",
+        "method": "Ballot initiative",
         "caregivers": "Yes",
         "dispensaries": "Yes",
         "cultivation": "Yes",
@@ -25,12 +25,12 @@
         "tax_rate": "8.6 percent to 9.6 percent",
         "fee_to_get_card": "$150",
         "regulatory_agency": "Department of Health Services",
-        "posession_limits": "2.5 ounces usable; 0-12 plants"
+        "posession_limits": "2 1/2 ounces and 12 plants"
     },
     {
         "state": "California",
         "date_adopted": 1996,
-        "method": "Ballot Initiative",
+        "method": "Ballot initiative",
         "caregivers": "Yes",
         "dispensaries": "Yes",
         "cultivation": "Yes",
@@ -39,12 +39,12 @@
         "tax_rate": "7.5 percent to 9 percent",
         "fee_to_get_card": "$66",
         "regulatory_agency": "Department of Public Health",
-        "posession_limits": "8 ounces usable; 6 mature or 12 immature plants"
+        "posession_limits": "8 ounces and six mature plants or 12 immature plants"
     },
     {
         "state": "Colorado",
         "date_adopted": 2000,
-        "method": "Ballot Initiative",
+        "method": "Ballot initiative",
         "caregivers": "Yes",
         "dispensaries": "Yes",
         "cultivation": "Yes",
@@ -53,7 +53,7 @@
         "tax_rate": "2.9 percent",
         "fee_to_get_card": "$15",
         "regulatory_agency": "Department of Public Health and Environment ",
-        "posession_limits": "2 ounces usable; 6 plants (3 mature, 3 immature)"
+        "posession_limits": "2 ounces and six plants (only three mature)"
     },
     {
         "state": "Connecticut",
@@ -67,7 +67,7 @@
         "tax_rate": "6.6 percent",
         "fee_to_get_card": "$100",
         "regulatory_agency": "Department of Consumer Protection",
-        "posession_limits": "One-month supply (exact amount to be determined)"
+        "posession_limits": "2 1/2 ounces"
     },
     {
         "state": "D.C",
@@ -81,7 +81,7 @@
         "tax_rate": "6 percent",
         "fee_to_get_card": "$100",
         "regulatory_agency": "Department of Health",
-        "posession_limits": "2 ounces dried; limits on other forms to be determined"
+        "posession_limits": "2 ounces"
     },
     {
         "state": "Delaware",
@@ -95,12 +95,12 @@
         "tax_rate": "None",
         "fee_to_get_card": "$125",
         "regulatory_agency": "Division of Public Health",
-        "posession_limits": "6 ounces usable"
+        "posession_limits": "6 ounces"
     },
     {
         "state": "Guam",
         "date_adopted": 2014,
-        "method": "Ballot Initiative",
+        "method": "Ballot initiative",
         "caregivers": "Yes",
         "dispensaries": "Yes",
         "cultivation": "TBD",
@@ -123,7 +123,7 @@
         "tax_rate": "N/A",
         "fee_to_get_card": "$38.50",
         "regulatory_agency": "Department of Health",
-        "posession_limits": "3 ounces usable; 7 plants "
+        "posession_limits": "3 ounces and seven plants"
     },
     {
         "state": "Illinois",
@@ -137,12 +137,12 @@
         "tax_rate": "8 percent",
         "fee_to_get_card": "$100",
         "regulatory_agency": "Department of Public Health",
-        "posession_limits": "2.5 ounces of usable cannabis during a period of 14 days"
+        "posession_limits": "2 1/2 ounces"
     },
     {
         "state": "Maine",
         "date_adopted": 1999,
-        "method": "Ballot Initiative",
+        "method": "Ballot initiative",
         "caregivers": "Yes",
         "dispensaries": "Yes",
         "cultivation": "Yes",
@@ -151,7 +151,7 @@
         "tax_rate": "5 percent",
         "fee_to_get_card": "None",
         "regulatory_agency": "Department of Health and Human Services",
-        "posession_limits": "2.5 ounces usable; 6 plants"
+        "posession_limits": "2 1/2 ounces and six mature plants"
     },
     {
         "state": "Maryland",
@@ -162,29 +162,29 @@
         "cultivation": "No",
         "number_of_patients": "0",
         "number_of_dispensaries": "0",
-        "tax_rate": "Zero percent",
+        "tax_rate": "None",
         "fee_to_get_card": "$50",
         "regulatory_agency": "Department of Health and Mental Hygiene",
-        "posession_limits": "30-day supply, amount to be determined"
+        "posession_limits": "4 ounces"
     },
     {
         "state": "Massachusetts",
         "date_adopted": 2012,
-        "method": "Ballot Initiative",
+        "method": "Ballot initiative",
         "caregivers": "Yes",
         "dispensaries": "Yes",
         "cultivation": "Yes",
         "number_of_patients": "9,150",
         "number_of_dispensaries": "1",
-        "tax_rate": "Zero percent",
+        "tax_rate": "None",
         "fee_to_get_card": "$50",
         "regulatory_agency": "Department of Public Health",
-        "posession_limits": "60-day supply for personal medical use"
+        "posession_limits": "10 ounces"
     },
     {
         "state": "Michigan",
         "date_adopted": 2008,
-        "method": "Ballot Initiative",
+        "method": "Ballot initiative",
         "caregivers": "Yes",
         "dispensaries": "No",
         "cultivation": "Yes",
@@ -193,7 +193,7 @@
         "tax_rate": "N/A",
         "fee_to_get_card": "$60",
         "regulatory_agency": "Department of Licensing and Regulatory Affairs",
-        "posession_limits": "2.5 ounces usable; 12 plants"
+        "posession_limits": "2 1/2 ounces and 12 plants"
     },
     {
         "state": "Minnesota",
@@ -204,7 +204,7 @@
         "cultivation": "No",
         "number_of_patients": "98",
         "number_of_dispensaries": "2",
-        "tax_rate": "Zero percent",
+        "tax_rate": "None",
         "fee_to_get_card": "$200",
         "regulatory_agency": "Department of Health",
         "posession_limits": "30-day supply of non-smokable marijuana"
@@ -212,7 +212,7 @@
     {
         "state": "Montana",
         "date_adopted": 2004,
-        "method": "Ballot Initiative",
+        "method": "Ballot initiative",
         "caregivers": "Yes",
         "dispensaries": "No",
         "cultivation": "Yes",
@@ -221,12 +221,12 @@
         "tax_rate": "N/A",
         "fee_to_get_card": "$75",
         "regulatory_agency": "Department of Health and Human Services",
-        "posession_limits": "1 ounce usable; 4 plants (mature); 12 seedlings"
+        "posession_limits": "1 ounce and four mature plants and 12 seedlings"
     },
     {
         "state": "Nevada",
         "date_adopted": 2000,
-        "method": "Ballot Initiative",
+        "method": "Ballot initiative",
         "caregivers": "Yes",
         "dispensaries": "Yes",
         "cultivation": "Yes",
@@ -235,7 +235,7 @@
         "tax_rate": "2 percent",
         "fee_to_get_card": "$100",
         "regulatory_agency": "Department of Health and Human Services",
-        "posession_limits": "1 ounce usable; 7 plants (3 mature, 4 immature)"
+        "posession_limits": "2 1/2 ounces and 12 mature plants"
     },
     {
         "state": "New Hampshire",
@@ -246,10 +246,10 @@
         "cultivation": "Yes",
         "number_of_patients": "0",
         "number_of_dispensaries": "0",
-        "tax_rate": "Zero percent",
+        "tax_rate": "None",
         "fee_to_get_card": "?",
         "regulatory_agency": "Department of Health and Human Services",
-        "posession_limits": "Two ounces of usable cannabis during a 10-day period"
+        "posession_limits": "2 ounces"
     },
     {
         "state": "New Jersey",
@@ -263,7 +263,7 @@
         "tax_rate": "7 percent",
         "fee_to_get_card": "$200",
         "regulatory_agency": "Department of Health",
-        "posession_limits": "Two ounces usable"
+        "posession_limits": "2 ounces"
     },
     {
         "state": "New Mexico",
@@ -277,7 +277,7 @@
         "tax_rate": "5.125 percent to 8.8675 percent",
         "fee_to_get_card": "Free",
         "regulatory_agency": "Department of Health",
-        "posession_limits": "Six ounces usable; 16 plants (4 mature, 12 immature)"
+        "posession_limits": "6 ounces and 16 plants (only four mature)"
     },
     {
         "state": "New York",
@@ -291,12 +291,12 @@
         "tax_rate": "4 percent",
         "fee_to_get_card": "$50",
         "regulatory_agency": "Department of Health",
-        "posession_limits": "30-day supply non-smokable marijuana"
+        "posession_limits": "30-day supply of non-smokable marijuana products"
     },
     {
         "state": "Oregon",
         "date_adopted": 1998,
-        "method": "Ballot Initiative",
+        "method": "Ballot initiative",
         "caregivers": "Yes",
         "dispensaries": "No",
         "cultivation": "Yes",
@@ -305,7 +305,7 @@
         "tax_rate": "N/A",
         "fee_to_get_card": "$200",
         "regulatory_agency": "Department of Human Services",
-        "posession_limits": "24 ounces usable; 24 plants (6 mature, 18 immature)"
+        "posession_limits": "24 ounces and 24 plants (only six mature)"
     },
     {
         "state": "Rhode Island",
@@ -319,7 +319,7 @@
         "tax_rate": "7 percent",
         "fee_to_get_card": "$100",
         "regulatory_agency": "Department of Health",
-        "posession_limits": "2.5 ounces usable; 12 plants"
+        "posession_limits": "2 1/2 ounces and 12 plants"
     },
     {
         "state": "Vermont",
@@ -330,15 +330,15 @@
         "cultivation": "Yes",
         "number_of_patients": "2,060",
         "number_of_dispensaries": "4",
-        "tax_rate": "Zero percent",
+        "tax_rate": "None",
         "fee_to_get_card": "$50",
         "regulatory_agency": "Department of Public Safety",
-        "posession_limits": "Two ounces usable; 9 plants (2 mature, 7 immature)"
+        "posession_limits": "2 ounces and nine plants (only two mature)"
     },
     {
         "state": "Washington",
         "date_adopted": 1998,
-        "method": "Ballot Initiative",
+        "method": "Ballot initiative",
         "caregivers": "Yes",
         "dispensaries": "Yes",
         "cultivation": "Yes",
@@ -347,6 +347,6 @@
         "tax_rate": "37 percent",
         "fee_to_get_card": "$0",
         "regulatory_agency": "Department of Health",
-        "posession_limits": "24 ounces usable; 15 plants"
+        "posession_limits": "8 ounces and six plants"
     }
 ]
